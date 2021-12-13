@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("dk-cleaning-bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+	overflow-x: hidden;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 75px;
+    border-bottom: #007CBA 2px solid;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+	z-index: 10;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.header ul li a {
+    color: #007CBA;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.info {
+	width: 50%;
+	padding: 30px;
+	background-color: #007CBA;
+	z-index: 9;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.def-info {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    position: relative;
+	flex-direction: row-reverse;
+	margin: 3px;
+}
+
+.def-info0 {
+	width: 250px;
+	height: 350px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(63, 63, 63, 0.7);
+    background-blend-mode: darken;
+}
+
+.def-info01 {
+	background-image: url("cl-bucket.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.def-info01 {
+	background-image: url("cl-bucket.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.def-info02 {
+	background-image: url("cl-carpet.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.def-info03 {
+	background-image: url("window-clean.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.info h2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+	font-size: 1.3vw;
+	margin: 20px;
+}
+
+.def-box {
+    width: 550px;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    flex-direction: column;
+	margin-left: 0; 
+}
+
+.def-box h3 {
+    color: #007CBA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.def-box ul {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+}
+
+.def-box ul li {
+    list-style: none;
+}
+
+.def-box ul li p {
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+	margin: 20px;
+    
+}
+
+/* services */
+
+.services {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+    position: relative;
+	z-index: 10;
+}
+
+.services .s_mark {
+    font-family: 'Poppins', sans-serif;
+    color: #007CBA;
+    font-size: 2rem;
+	padding: 50px;
+}
+
+.i_mark {
+	color: #101010;
+	padding: 50px;
+	font-size: 1.2rem;
+}
+
+table {
+	
+}
+
+td, th {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+}
+
+/* footer */
+
+.footer-distributed{
+	background: #101010;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+    font-size: 2rem;
+}
+
+.footer-distributed h3 span{
+	color:  #007CBA;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+    font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #fff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #007CBA;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color: #007CBA;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+	td, th {
+		font-size: 1rem;
+		text-align: center;
+	}
+	
+	.def-info {
+		background-image: none;
+		background-color: #fff;
+	}
+
+	.i_mark {
+		font-size: 3vw;
+		padding: 40px;
+	}
+
+	.def-info {
+		background-image: url("dk-cleaning-bk.jpg");
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.def-box {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		position: relative;
+	}
+
+	.def-info h2 {
+		width: 100%;
+		background-color: #fff;
+		margin: 0;
+		position: relative;
+		border: 1px solid #fff;
+		display: none;
+	}
+
+	.def-box ul {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1650px) {
+	.def-info0 {
+		width: 200px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.info {
+		width: 60%;
+	}
+}
+
+@media (max-width: 1250px) {
+	.info {
+		display: none;
+	}
+
+	.def-box {
+		margin: auto;
+	}
+}
