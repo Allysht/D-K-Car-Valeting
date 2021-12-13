@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(17,60,134);
+    background: linear-gradient(90deg, rgba(17,60,134,1) 0%, rgba(111,0,0,1) 100%);
+}
+
+/*header*/
+
+.header {
+    width: 100%;
+    color: #fff;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    position: fixed;
+    background: rgb(17,60,134);
+    background: linear-gradient(90deg, rgba(17,60,134,1) 0%, rgba(111,0,0,1) 100%);
+    z-index: 3;
+}
+
+.header h1 {
+    color: #fff;
+    margin: 30px;
+}
+
+.header ul {
+    display: flex;
+    margin: 30px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.header ul li a {
+    color: #fff;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+/*services*/
+
+.dk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dk-cleaning {
+    flex: 1;
+    border-right: 1px solid #fff;
+    position: relative;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7); 
+    background-image: url("dk-cleaning-bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.dk-carvaleting {
+    flex: 1;
+    z-index: 2;
+    background: rgba(0,0,0,0.7);
+    background-image: url("dk-carvaleting-bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.rq-btn {
+    width: 220px;
+    height: 70px;
+    cursor: pointer;
+    outline: none;
+    border: 1px #fff solid;
+    background: transparent;
+    color: #fff;
+    font: 1rem;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 3;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #101010;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header {
+        position: static;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .dk-cleaning {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .rq-btn {
+        width: 150px;
+        height: 60px;
+    }
+
+    .header h1 {
+        font-size: 4vw;
+    }
+
+}
